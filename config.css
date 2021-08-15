@@ -1,0 +1,78 @@
+.car-type{
+    background:rgba(57, 78, 112, 0.3);
+    float: left;
+    width:200px;
+    height:50px;
+    font-size:24px;
+    margin-left:5px;
+    font-weight: 700;
+    color:white;
+    padding-top:25px;
+    padding-left:25px;
+    border:#152238 2px solid;
+    border-radius:10px;
+    transition:.5s;
+}
+
+.car-type:hover{
+    background: #152238;
+}
+
+.car-type-electric,.cartypesuv,.car-type-performance{
+    color:white;
+    float: left;
+    cursor:pointer;
+    margin-left:60px;
+    padding:20px 20px;
+    transition:.5s;
+}
+
+img{
+    width:300px;
+    height:auto;
+}
+
+#corvett{
+    width:230px;
+    height:auto;
+    margin-bottom:-50px;
+}
+#corvettt{
+    width:230px;
+    height:auto;
+    margin-bottom:-10px;
+}
+
+.car-type-electric:hover,.cartypesuv:hover,.car-type-performance:hover{
+    background:rgba(57, 78, 112, 0.3);
+    border-radius:20px;
+}
+
+.car-name{
+    margin-left:10px;
+    font-size:24px;
+    font-weight:700;
+    line-height:50px;
+}
+
+.car-price{
+    color:#999;
+    letter-spacing:2px;
+}
+
+#boltuv{
+    margin-top:20px;
+}
+
+#trax{
+    width:250px;
+    height:auto;
+}
+
+#subur{
+    margin-top:20px;
+}
+
+a{
+    text-decoration:none;
+}

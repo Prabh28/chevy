@@ -1,0 +1,291 @@
+body{
+	margin:0;
+	padding:0;
+	height: auto;
+	overflow:;
+}
+
+.cover{
+	opacity:1;
+	background-image:url(corvettecover.jpg);
+	width:1260px;
+	height:500px;
+	margin-top:0px;
+	background-position: center;
+	background-blend-mode:hard-light;
+	background-size:1277px;
+	animation: opa 2s linear;
+}
+@keyframes opa{
+	0%{
+		opacity: 0.2;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.textee{
+	margin-left: 50px;
+	padding-top:40px;
+}
+
+.big-size{
+	font-size:40px;
+	color:white;
+	font-weight:800;
+	letter-spacing: 3px;
+}
+
+.small-size{
+	font-size:20px;
+	color:white;
+	letter-spacing:1px;
+}
+
+.cover-teller{
+	width:1260px;
+	height:70px;
+	background:#f9f9f9;
+
+}
+
+.big-sizee{
+	font-size:20px;
+	color:#090909;
+	font-weight:700;
+	margin-left:30px;
+	line-height:70px;
+}
+#c,#o,#r,#v,#e,#t,#t1,#e1{
+	margin-left:-4px;
+}
+.second-ul{
+	float: right;
+	list-style: none;
+}
+
+.second-li{
+	float:left;
+	font-size:20px;
+	padding:0px 20px;
+	margin-bottom:5px;
+	transition:.1s;
+}
+
+.second-a{
+	color:#999;
+	text-transform: none;
+	line-height:70px;
+	transition:.1s;
+}
+.second-li:hover{
+	border-right:2px solid #f67;
+}
+.second-a:hover{
+	color:black;
+}
+
+#btn-1{
+	font-size:20px;
+	background:none;
+	border:2px solid #f67;
+	padding:10px 20px;
+	transition:.5s;
+}
+
+#btn-1:hover{
+	background:#f67;
+	color:white;
+	border-radius:10px;
+}
+
+#presicion{
+	width:1260px;
+	height:2500px;
+	padding:60px 0px;
+	background:black;
+}
+
+.ghu img{
+	width:80px;
+	height:auto;
+}
+
+.differ{
+	font-size:24px;
+	font-weight:800;
+	color:white;
+}
+
+.ghu{
+	padding:0;
+}
+table{
+	margin-left:170px;
+}
+
+.gju{
+	padding-right:100px;
+}
+
+
+.big-sizze{
+	font-size:35px;
+	color:white;
+	line-height:60px;
+	font-weight:600;
+	margin-left:50px;
+	font-stretch:ultra-expanded;
+}
+
+.small-sizze{
+	font-size:22px;
+	color:white;
+	line-height:25px;
+	margin-left:50px;
+	margin-right:20px;
+}
+
+.build1{
+	float: right;
+	color:white;
+	margin-top:30px;
+	font-size:20px;
+	margin-right: 150px;
+	padding:20px 40px;
+	background:transparent;
+	border:2px solid #f67;
+	transition: .5s;
+}
+
+.build1:hover{
+	background:#f67;
+	border-radius:10px;
+}
+
+.big-sizzee{
+	font-size:28px;
+	color:white;
+	line-height:60px;
+	font-weight:600;
+	margin-left:50px;
+	font-stretch:condensed;
+}
+
+.introimg{
+	width:300px;
+	height:170px;
+	padding:10px 30px;
+}
+
+.bhh{
+	margin-left:0px;
+}
+
+.bhh .tdd{
+	padding:10px 60px;
+	font-size:30px;
+	line-height:30px;
+	font-weight:700;
+	color:white;
+	text-align:center;
+}
+
+.td{
+	font-size:18px;
+	font-weight:500;
+	color:white;
+}
+
+.images{
+	width:1260px;
+	height:500px;
+	background:black;
+	margin-top:100px;
+	overflow:hidden;
+}
+.imgg{
+	width:300px;
+	height:auto;
+	transition:.6s;
+}
+
+.imgg:hover{
+	width:320px;
+	height:auto;
+}
+#sound{
+	background:;
+	height:300px;
+	z-index:-100;
+	margin-top:-90px;
+}
+#soundPlay{
+	width:100px;
+	margin-top:100px;
+	height:100px;
+	margin-left:550px;
+	background:white;
+	border-radius:50%;
+	font-weight:700;
+	animation: rnd 12s linear;
+	animation-play-state: paused;
+} 
+
+@keyframes rnd{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(1800deg);
+	}
+}
+.req-quote{
+	width:1260px;
+	height:auto;
+	background:black;
+}
+
+.req-img{
+	width:600px;
+	height:200px;
+	background:black;
+	float:left;
+}
+
+.req-form{
+	float:left;
+	width:300px;
+	height:450px;
+	margin:20px 150px;
+	border:1px solid #f67;
+	background:black;
+}
+
+.cartype{
+	vertical-align: middle;
+	color:white;
+	font-weight:700;
+	line-height:30px;
+	padding-left:40px;
+}
+#req-imgg{
+	width:400px;
+	border-radius:20px;
+	margin:16%;
+}
+select{
+	width:80px;
+	color:#999;
+	border:none;
+	transition:.3s;
+}
+
+.marform{
+	margin-top:100px;
+}
+
+select:focus{
+	color:#000;
+}
